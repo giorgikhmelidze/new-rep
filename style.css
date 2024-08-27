@@ -4,3 +4,33 @@
     box-sizing: border-box;
 }   
 
+.container {
+    max-width: 1440px;
+    height: 100%;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 115px 0px 138px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgba(55, 71, 79, 1);
+    font-family: 'Istok Web';
+    font-family: Istok Web;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35.99px;
+    text-align: left;
+
+}
